@@ -1,0 +1,26 @@
+@import '../base/variables' ; 
+@import '../base/mixin' ; 
+
+/* HEADER */
+
+
+.headercontainer {
+    background-color: $bg-color;
+    border-bottom: $border-color 2px solid !important;
+}
+
+.title { 
+    text-shadow: $font-color 1px 1px;
+    
+}
+
+.nav-item {
+    padding: 5px !important;
+}
+
+.headeritem {
+    color : $font-color !important;
+    &hover {
+        color : $hoverfont-color !important;
+    }
+}

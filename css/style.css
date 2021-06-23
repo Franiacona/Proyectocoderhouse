@@ -1,0 +1,188 @@
+/* MIXIN */
+/* HEADER */
+.headercontainer {
+  background-color: #FFD6FF;
+  border-bottom: #FFC2FF 2px solid !important;
+}
+
+.title {
+  text-shadow: #660066 1px 1px;
+}
+
+.nav-item {
+  padding: 5px !important;
+}
+
+.headeritem {
+  color: #660066 !important;
+}
+.headeritemhover {
+  color: #FF99FF !important;
+}
+
+/* MIXIN */
+/* FOOTER */
+.footercontainer {
+  background-color: #3D003D;
+  border-top: solid 2px #FFC2FF !important;
+}
+
+.footer-box {
+  padding: 20px;
+}
+
+.footeritem {
+  display: flex;
+  justify-content: center;
+}
+
+.listend {
+  color: white;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.item-list-first {
+  margin-top: 10px;
+  padding: 5px;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+
+.item-list-first a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+.item-list-first ahover {
+  text-decoration: underline;
+  color: #FFC2FF;
+}
+
+.item-list-two {
+  margin-top: 10px;
+  padding: 5px;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+
+.item-list-two a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+.item-list-two ahover {
+  text-decoration: underline;
+  color: #FFC2FF;
+}
+
+/* MIXIN */
+/* MIDSECTION */
+.section-central {
+  padding: 40px;
+  background-color: #FFEBFF;
+}
+
+/* CAROUSEL */
+.carouselfont {
+  color: black;
+}
+
+.carouselbox {
+  margin: 20px;
+  border: #FFC2FF 2px solid;
+}
+
+.banner {
+  margin-top: 30px;
+  padding: 40px 0;
+  align-items: center;
+}
+
+.banner-item {
+  display: flex;
+  justify-content: center;
+}
+
+.banner-text {
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+
+/* CARDS */
+.card-container {
+  padding: 150px 20px;
+}
+
+.card-title {
+  text-align: center;
+  color: #660066;
+}
+
+.boton-cards {
+  background-color: #FFC2FF;
+  margin: 12px;
+  padding: 4px;
+  border: solid 1px #660066 !important;
+  display: flex;
+  justify-content: center;
+}
+
+.boton-cards:hover {
+  background-color: #660066 !important;
+  border: solid 1px #FFC2FF !important;
+}
+
+/* MIXIN */
+/* CARDS Y TIENDA */
+.shop-card {
+  padding: 30px;
+}
+
+/* REDES */
+.titleh2-container {
+  text-align: center;
+}
+
+.titleh2 {
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.socialmedia-container {
+  padding: 40px;
+}
+
+.item-container {
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.socialmediatext {
+  text-align: center !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  padding-top: 60px;
+}
+
+/* MIXIN */
+/* MIXIN */
+.instagram:hover {
+  color: #FF4747;
+  text-decoration: underline;
+}
+
+.whatsapp:hover {
+  color: #77FF5C;
+  text-decoration: underline;
+}
+
+.gmail:hover {
+  color: #FFB65C;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,21 @@
+@import '../base/variables' ; 
+@import '../base/mixin' ; 
+
+
+
+
+
+.instagram:hover {
+    color: map-get($maps, instagram);
+    text-decoration: underline;
+}
+
+.whatsapp:hover {
+    color: map-get($maps, whatsapp);
+    text-decoration: underline;
+}
+
+.gmail:hover {
+    color: map-get($maps, gmail);
+    text-decoration: underline;
+}

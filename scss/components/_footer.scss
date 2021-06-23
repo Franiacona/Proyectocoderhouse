@@ -1,0 +1,64 @@
+@import '../base/variables' ; 
+@import '../base/mixin' ; 
+
+
+/* FOOTER */
+
+.footercontainer {
+    background-color: $footer-color;
+    border-top: solid 2px $border-color !important;
+}
+
+.footer-box {
+    padding: 20px;
+}
+
+.footeritem{
+    display: flex;
+    justify-content: center;
+}
+
+.listend { 
+    color: white;
+    font-size: 20px;
+    text-decoration: underline;
+
+}
+
+
+.item-list-first {
+    margin-top: 10px;
+    padding: 5px;
+    @include decotarion(none);
+    color: white;
+}
+
+.item-list-first a{
+    @include decotarion(none);
+    color: white;
+
+    &hover {
+        text-decoration: underline;
+        color: $border-color;
+    }
+}
+
+.item-list-two {
+    margin-top: 10px;
+    padding: 5px;
+    @include decotarion(none);
+    color: white;
+
+}
+
+.item-list-two a {
+    @include decotarion(none);
+    color: white;
+
+    &hover {
+        text-decoration: underline;
+        color: $border-color;
+    }
+
+}
+

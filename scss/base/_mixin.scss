@@ -1,0 +1,26 @@
+/* MIXIN */
+
+@mixin transition($propiedad) {
+
+    -webkit-transition: $propiedad  ;
+    -o-transition: $propiedad ;
+    -moz-transition: $propiedad ;
+    transition: $propiedad ;
+    
+}
+
+
+@mixin transform($propiedad) {
+
+    -webkit-transform: $propiedad ;
+    -moz-transform: $propiedad ;
+    -o-transform: $propiedad ;
+    transform: $propiedad ;
+    
+}
+
+
+@mixin decotarion($propiedad) {
+    text-decoration: none;
+    list-style: none;
+}

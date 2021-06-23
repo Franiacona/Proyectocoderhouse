@@ -1,0 +1,42 @@
+@import '../base/variables' ; 
+@import '../base/mixin' ; 
+
+/* CARDS Y TIENDA */
+
+
+.shop-card {
+    padding: 30px;
+}
+
+
+
+
+
+
+
+/* REDES */
+
+.titleh2-container {
+    text-align: center;
+}
+
+.titleh2 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.socialmedia-container {
+    padding: 40px;
+}
+
+.item-container {
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.socialmediatext {
+    text-align: center !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    padding-top: 60px;
+}

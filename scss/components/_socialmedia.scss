@@ -3,19 +3,19 @@
 
 
 
-
-
 .instagram:hover {
-    color: map-get($maps, instagram);
-    text-decoration: underline;
+    @include decotarion(none);
 }
 
 .whatsapp:hover {
-    color: map-get($maps, whatsapp);
-    text-decoration: underline;
+    @include decotarion(none);
 }
 
 .gmail:hover {
-    color: map-get($maps, gmail);
-    text-decoration: underline;
+    @include decotarion(none);
 }
+
+.facebook:hover {
+    @include decotarion(none);
+}
+

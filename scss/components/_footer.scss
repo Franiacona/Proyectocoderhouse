@@ -13,52 +13,44 @@
     padding: 20px;
 }
 
-.footeritem{
+
+.pull-left {
+    padding: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
-.listend { 
-    color: white;
-    font-size: 20px;
-    text-decoration: underline;
-
+.footer-title {
+    font-size: 18px;
+    color: lighten($border-color, $amount: 5);
 }
 
-
-.item-list-first {
-    margin-top: 10px;
-    padding: 5px;
-    @include decotarion(none);
+.footer-address {
+    padding-top: 30px;
     color: white;
 }
 
-.item-list-first a{
-    @include decotarion(none);
+.phone {
+    text-decoration: none;
     color: white;
-
-    &hover {
-        text-decoration: underline;
+    &:hover {
         color: $border-color;
     }
 }
 
-.item-list-two {
-    margin-top: 10px;
-    padding: 5px;
-    @include decotarion(none);
-    color: white;
-
+.pull-rigth {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
 }
 
-.item-list-two a {
-    @include decotarion(none);
-    color: white;
-
-    &hover {
-        text-decoration: underline;
+.icon {
+    padding-inline-start: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    color: lighten($border-color, $amount: 5);
+    &:hover {
         color: $border-color;
+        text-shadow: lighten($border-color, $amount: 10) 1px 1px 3px;
     }
-
 }
-

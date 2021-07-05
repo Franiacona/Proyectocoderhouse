@@ -2,20 +2,92 @@
 @import '../base/mixin' ; 
 
 
-
-.instagram:hover {
-    @include decotarion(none);
+.icon-socialmedia {
+    padding: 30px;
+    font-size: 120px;
+    text-decoration: none;
+    color: darken($border-color, $amount: 5);
+    &:hover {
+        color: darken($border-color, $amount: 10);
+        text-shadow: $font-color 1px 1px 3px;
+    }
 }
 
-.whatsapp:hover {
-    @include decotarion(none);
+form .grupo{
+    position: relative;
+    margin: 45px;
 }
 
-.gmail:hover {
-    @include decotarion(none);
+input, textarea{
+    background: none;
+    color: $font-color;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid var(--colorTextos);
+    resize: none;
 }
 
-.facebook:hover {
-    @include decotarion(none);
+input:focus,textarea:focus{
+    outline: none;
+    color: $font-color;
 }
 
+input:focus~label, 
+input:valid~label, 
+textarea:focus~label,
+textarea:valid~label{
+    position: absolute;
+    top: -14px;
+    font-size: 12px;
+    color: darken($border-color, $amount: 10);
+}
+
+label{
+    color: var(--colorTextos);
+    font-size: 16px;
+    position: absolute;
+    left: 5px;
+    top:10px;
+    transition: 0.5s ease all;
+    pointer-events: none;
+}
+
+
+input:focus~.barra::before, textarea:focus~.barra::before{
+    width: 100%;
+}
+.barra{
+    position: relative;
+    display: block;
+    width: 100%;
+}
+.barra::before{
+    content: '';
+    height: 2px;
+    width: 0%;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(to right, $border-color, $font-color);
+    transition: 2s ease all;
+    left: 0%;
+}
+button{
+    background: $font-color;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, darken($border-color, $amount: 5), darken($border-color, $amount: 10));
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, darken($border-color, $amount: 5), darken($border-color, $amount: 10));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: block;
+    width: 100px;
+    height: 40px;
+    border:none;
+    color: lighten($font-color, $amount: 5); 
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 10px auto;
+    cursor: pointer;
+}

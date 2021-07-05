@@ -18,7 +18,7 @@
 
 .carouselbox {
     margin: 20px;
-    border: $border-color 2px solid;
+    border: lighten($border-color, $amount: 5) 2px solid !important;
 }
 
 .banner {
@@ -40,6 +40,10 @@
 
 /* CARDS */
 
+.cardbox-index {
+    border: lighten($border-color, $amount: 5) 2px solid !important;
+    
+}
 
 .card-container {
     padding: 150px 20px;
@@ -51,7 +55,7 @@
 }
 
 .boton-cards{
-
+    color: $font-color !important;
     background-color: $border-color;
     margin: 12px;
     padding: 4px;
@@ -63,7 +67,7 @@
 
 
 .boton-cards:hover {
-
+    color: white !important;
     background-color: $font-color !important;
     border: solid 1px $border-color !important;
 }

@@ -27,11 +27,8 @@
   border-top: solid 2px #FFC2FF !important;
 }
 
-.footer-box {
-  padding: 20px;
-}
-
 .pull-left {
+  margin-left: 15px;
   padding: 10px;
   display: flex;
   justify-content: flex-start;
@@ -56,6 +53,7 @@
 }
 
 .pull-rigth {
+  margin-right: 15px;
   padding: 10px;
   display: flex;
   justify-content: flex-end;
@@ -174,11 +172,19 @@
   padding: 30px;
   font-size: 120px;
   text-decoration: none;
-  color: #ffa9ff;
+  color: purple;
 }
 .icon-socialmedia:hover {
-  color: #ff8fff;
+  color: #990099;
   text-shadow: #660066 1px 1px 3px;
+}
+
+.form {
+  align-items: center;
+}
+
+.contactus-h2 {
+  text-align: center;
 }
 
 form .grupo {
@@ -245,17 +251,14 @@ input:focus ~ .barra::before, textarea:focus ~ .barra::before {
 }
 
 button {
-  background: #660066;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ffa9ff, #ff8fff);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ffa9ff, #ff8fff);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #990099;
+  background: -webkit-linear-gradient(to right, #4d004d, #990099);
+  background: linear-gradient(to right, #4d004d, #330033);
   display: block;
   width: 100px;
   height: 40px;
   border: none;
-  color: purple;
+  color: #ffdcff;
   border-radius: 4px;
   font-size: 16px;
   margin: 10px auto;

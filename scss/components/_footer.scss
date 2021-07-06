@@ -9,12 +9,10 @@
     border-top: solid 2px $border-color !important;
 }
 
-.footer-box {
-    padding: 20px;
-}
 
 
 .pull-left {
+    margin-left: 15px;
     padding: 10px;
     display: flex;
     justify-content: flex-start;
@@ -39,6 +37,7 @@
 }
 
 .pull-rigth {
+    margin-right: 15px;
     padding: 10px;
     display: flex;
     justify-content: flex-end;

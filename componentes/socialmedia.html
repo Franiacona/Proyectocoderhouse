@@ -103,26 +103,26 @@
         </div>
 
         <div class="form-container whatsapp col-12 col-md-8">
-          <form action="">
+          <form action="enviar.php" method="POST" name="contact-form">
             <div class="form">
                 <h2>Contactanos</h2>
                 <div class="grupo">
                     <input type="text" name="nombre" id="name" required><span class="barra"></span>
-                    <label>Nombre</label>
+                    <label for="name">Nombre</label>
                 </div>
                 <div class="grupo">
                     <input type="email" name="email" id="mail" required><span class="barra"></span>
-                    <label>Email</label>
+                    <label for="mail" >Email</label>
                 </div>
                 <div class="grupo">
                     <input type="subject" name="asunto" id="asunto" required><span class="barra"></span>
-                    <label>Asunto</label>
+                    <label for="">Asunto</label>
                 </div>
                 <div class="grupo">
                     <textarea name="mensaje" id="mensaje" cols="5" rows="7" required></textarea><span class="barra"></span>
-                    <label>Mensaje</label>
+                    <label for="">Mensaje</label>
                 </div>
-                <button type="submit">Enviar</button>
+                <button type="submit" value="enviar">Enviar</button>
             </div>
         </form>
         </div>

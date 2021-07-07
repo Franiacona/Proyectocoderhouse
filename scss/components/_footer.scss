@@ -12,8 +12,8 @@
 
 
 .pull-left {
-    margin-left: 15px;
-    padding: 10px;
+    margin-left: 25px;
+    padding: 10px 0px;
     display: flex;
     justify-content: flex-start;
 }
@@ -37,10 +37,11 @@
 }
 
 .pull-rigth {
-    margin-right: 15px;
-    padding: 10px;
+    margin-right: 25px;
+    padding: 10px 0px;
     display: flex;
     justify-content: flex-end;
+
 }
 
 .icon {

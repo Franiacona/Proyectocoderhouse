@@ -21,6 +21,12 @@
     border: lighten($border-color, $amount: 5) 2px solid !important;
 }
 
+.carousel-title { 
+    font-size: 24px;
+    color: lighten($font-color, $amount: 15);
+    text-shadow: black 1px 1px 10px;
+}
+
 .banner {
     margin-top: 30px;
     padding: 40px 0;
@@ -45,11 +51,18 @@
     
 }
 
+.card-aling {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
 .card-container {
     padding: 150px 20px;
 }
 
 .card-title{
+    font-size: 20px;
     text-align: center;
     color: $font-color;
 }

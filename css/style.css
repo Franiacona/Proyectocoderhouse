@@ -10,7 +10,7 @@
 }
 
 .nav-item {
-  padding: 5px !important;
+  padding-inline-start: 10px !important;
 }
 
 .headeritem {
@@ -28,8 +28,8 @@
 }
 
 .pull-left {
-  margin-left: 15px;
-  padding: 10px;
+  margin-left: 25px;
+  padding: 10px 0px;
   display: flex;
   justify-content: flex-start;
 }
@@ -53,8 +53,8 @@
 }
 
 .pull-rigth {
-  margin-right: 15px;
-  padding: 10px;
+  margin-right: 25px;
+  padding: 10px 0px;
   display: flex;
   justify-content: flex-end;
 }
@@ -87,6 +87,12 @@
   border: #ffdcff 2px solid !important;
 }
 
+.carousel-title {
+  font-size: 24px;
+  color: #b300b3;
+  text-shadow: black 1px 1px 10px;
+}
+
 .banner {
   margin-top: 30px;
   padding: 40px 0;
@@ -109,11 +115,18 @@
   border: #ffdcff 2px solid !important;
 }
 
+.card-aling {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+
 .card-container {
   padding: 150px 20px;
 }
 
 .card-title {
+  font-size: 20px;
   text-align: center;
   color: #660066;
 }

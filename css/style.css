@@ -27,6 +27,12 @@
   border-top: solid 2px #FFC2FF !important;
 }
 
+.footer-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Direccion - nombre */
 .pull-left {
   margin-left: 25px;
   padding: 10px 0px;
@@ -44,25 +50,20 @@
   color: white;
 }
 
-.phone {
-  text-decoration: none;
-  color: white;
-}
-.phone:hover {
-  color: #FFC2FF;
-}
-
+/* ICONOS - LINKS */
 .pull-rigth {
   margin-right: 25px;
   padding: 10px 0px;
   display: flex;
   justify-content: flex-end;
+  align-items: flex-start;
 }
 
 .icon {
   padding-inline-start: 20px;
   font-size: 30px;
   text-decoration: none;
+  list-style: none;
   color: #ffdcff;
 }
 .icon:hover {
@@ -89,7 +90,7 @@
 
 .carousel-title {
   font-size: 24px;
-  color: #b300b3;
+  color: #ffdcff;
   text-shadow: black 1px 1px 10px;
 }
 
@@ -110,6 +111,30 @@
   text-align: center;
 }
 
+/* NOSOTROS TITLE */
+.titlenosotros-container {
+  -webkit-transition: 2s;
+  -o-transition: 2s;
+  -moz-transition: 2s;
+  transition: 2s;
+  margin-top: 40px;
+  padding: 60px;
+}
+.titlenosotros-containerhover {
+  -webkit-transform: scale(2);
+  -moz-transform: scale(2);
+  -o-transform: scale(2);
+  transform: scale(2);
+}
+
+.nosotros-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ff8fff;
+  text-shadow: black 1px 1px 3px;
+}
+
 /* CARDS */
 .cardbox-index {
   border: #ffdcff 2px solid !important;
@@ -122,7 +147,7 @@
 }
 
 .card-container {
-  padding: 150px 20px;
+  padding: 40px 20px;
 }
 
 .card-title {
@@ -190,6 +215,13 @@
 .icon-socialmedia:hover {
   color: #990099;
   text-shadow: #660066 1px 1px 3px;
+}
+
+.mapa {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .form {

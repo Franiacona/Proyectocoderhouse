@@ -10,7 +10,6 @@
 }
 
 
-
 /* CAROUSEL */
 .carouselfont {
     color: black;
@@ -23,7 +22,7 @@
 
 .carousel-title { 
     font-size: 24px;
-    color: lighten($font-color, $amount: 15);
+    color: lighten($border-color, $amount: 5);
     text-shadow: black 1px 1px 10px;
 }
 
@@ -44,6 +43,31 @@
     text-align: center;
 }
 
+
+/* NOSOTROS TITLE */
+
+ 
+
+.titlenosotros-container {
+    @include transition(2s) ;
+    margin-top: 40px;
+    padding: 60px;
+    &hover {
+        @include transform(scale(2)) ;
+    }
+}
+
+.nosotros-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: darken($border-color, $amount: 10);
+    text-shadow: black 1px 1px 3px;
+    
+}
+
+
+
 /* CARDS */
 
 .cardbox-index {
@@ -58,7 +82,7 @@
 }
 
 .card-container {
-    padding: 150px 20px;
+    padding: 40px 20px;
 }
 
 .card-title{

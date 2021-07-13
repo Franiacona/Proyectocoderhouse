@@ -13,6 +13,13 @@
     }
 }
 
+.mapa {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
 .form {
     align-items: center;
 }
@@ -82,6 +89,7 @@ input:focus~.barra::before, textarea:focus~.barra::before{
     transition: 2s ease all;
     left: 0%;
 }
+
 button{
     background: lighten($font-color, $amount: 10);
     background: -webkit-linear-gradient(to right, darken($font-color, $amount: 5), lighten($font-color, $amount: 10));

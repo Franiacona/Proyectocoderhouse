@@ -2,15 +2,20 @@
 @import '../base/mixin' ; 
 
 
-/* FOOTER */
+ /* FOOTER */
 
 .footercontainer {
     background-color: $footer-color;
     border-top: solid 2px $border-color !important;
 }
 
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+}
 
 
+/* Direccion - nombre */
 .pull-left {
     margin-left: 25px;
     padding: 10px 0px;
@@ -28,29 +33,25 @@
     color: white;
 }
 
-.phone {
-    text-decoration: none;
-    color: white;
-    &:hover {
-        color: $border-color;
-    }
-}
+/* ICONOS - LINKS */
 
 .pull-rigth {
     margin-right: 25px;
     padding: 10px 0px;
     display: flex;
     justify-content: flex-end;
+    align-items: flex-start;
+    
 
 }
 
 .icon {
     padding-inline-start: 20px;
     font-size: 30px;
-    text-decoration: none;
+    @include decoration(none) ;
     color: lighten($border-color, $amount: 5);
     &:hover {
         color: $border-color;
         text-shadow: lighten($border-color, $amount: 10) 1px 1px 3px;
     }
-}
+} 

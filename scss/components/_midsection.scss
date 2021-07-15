@@ -20,6 +20,14 @@
     border: lighten($border-color, $amount: 5) 2px solid !important;
 }
 
+.photo-carousel {
+    @include transition(all 1s);
+
+    &:hover {
+        @include transform(scale(1.1));
+    }
+}
+
 .carousel-title { 
     font-size: 24px;
     color: lighten($border-color, $amount: 5);
@@ -30,11 +38,13 @@
     margin-top: 30px;
     padding: 40px 0;
     align-items: center;
+    
 }
 
 .banner-item {
     display: flex;
     justify-content: center;
+    
 }
 
 .banner-text {
@@ -46,23 +56,20 @@
 
 /* NOSOTROS TITLE */
 
- 
 
 .titlenosotros-container {
-    @include transition(2s) ;
     margin-top: 40px;
     padding: 60px;
-    &hover {
-        @include transform(scale(2)) ;
-    }
+
 }
 
 .nosotros-title {
+
     display: flex;
     align-items: center;
     justify-content: center;
-    color: darken($border-color, $amount: 10);
-    text-shadow: black 1px 1px 3px;
+    color: lighten($font-color, $amount: 5);
+    text-shadow: $font-color 1px 1px;
     
 }
 
@@ -73,6 +80,15 @@
 .cardbox-index {
     border: lighten($border-color, $amount: 5) 2px solid !important;
     
+}
+
+.photo-card {
+    @include transition(all 1s);
+
+    border: lighten($border-color, $amount: 5) 2px solid !important;
+    &:hover {
+        @include transform(scale(1.1));
+    }
 }
 
 .card-aling {
@@ -99,12 +115,12 @@
     border: solid 1px $font-color !important;
     display: flex;
     justify-content: center;
+    @include transition(all 1s);
 
-}
-
-
-.boton-cards:hover {
-    color: white !important;
-    background-color: $font-color !important;
-    border: solid 1px $border-color !important;
+    &:hover {
+        @include transform(scale(1.1));
+        color: white !important;
+        background-color: $font-color !important;
+        border: solid 1px $border-color !important;
+    }
 }

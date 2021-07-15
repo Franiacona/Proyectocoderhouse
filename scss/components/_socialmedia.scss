@@ -2,17 +2,24 @@
 @import '../base/mixin' ; 
 
 
+
+/* ICONOS DE REDES */
+
 .icon-socialmedia {
     padding: 30px;
     font-size: 120px;
     text-decoration: none;
     color: lighten($font-color, $amount: 5);
+    @include transition(all 1.5s);
     &:hover {
+        @include transform(scale(1.1));
         color: lighten($font-color, $amount: 10);
         text-shadow: $font-color 1px 1px 3px;
     }
 }
 
+
+/* MAPA */
 .mapa {
     padding-top: 20px;
     display: flex;
@@ -20,6 +27,10 @@
     justify-content: center;    
 }
 
+
+
+
+/* Contact form */
 .form {
     align-items: center;
 }

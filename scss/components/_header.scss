@@ -11,7 +11,17 @@
 
 .title { 
     text-shadow: $font-color 1px 1px;
-    
+}
+
+.boton-header {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    color: $hoverfont-color !important;
+}
+
+.navbar-toggler-icon {
+    color: $hoverfont-color !important;
 }
 
 .nav-item {
@@ -20,6 +30,7 @@
 
 .headeritem {
     color : $font-color !important;
+    
     &hover {
         color : $hoverfont-color !important;
     }
